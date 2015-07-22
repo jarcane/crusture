@@ -2,6 +2,8 @@
 
 A simple "Hello World" app, with a Rust server at the backend, and ClojureScript+Reagent on the front end (with Figwheel support).
 
+![crust in action!](https://pbs.twimg.com/media/CKhxltKWgAAP-mK.png:large)
+
 ## Why you do this?
 
 Single language development rocks. At my internship this summer, I worked with Clojure+ClojureScript for a full stack user directory app, and it's great. 
