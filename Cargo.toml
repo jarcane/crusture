@@ -1,0 +1,12 @@
+[package]
+name = "crust"
+version = "0.1.0"
+authors = ["jarcane <jarcane@users.noreply.github.com>"]
+
+[dependencies]
+iron = "*"
+staticfile = "*"
+
+[dependencies.mount]
+
+git = "https://github.com/iron/mount.git"
