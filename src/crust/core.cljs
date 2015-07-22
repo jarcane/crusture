@@ -1,4 +1,4 @@
-(ns ^:figwheel-always crust.core
+(ns ^:figwheel-always crusture.core
     (:require
               [reagent.core :as reagent :refer [atom]]))
 

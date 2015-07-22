@@ -1,4 +1,4 @@
-# crust
+# crusture
 
 A simple "Hello World" app, with a Rust server at the backend, and ClojureScript+Reagent on the front end (with Figwheel support).
 

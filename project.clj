@@ -1,4 +1,4 @@
-(defproject crust "0.1.0-SNAPSHOT"
+(defproject crusture "0.1.0-SNAPSHOT"
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -22,7 +22,7 @@
 
               :figwheel { :on-jsload "crust.core/on-js-reload" }
 
-              :compiler {:main crust.core
+              :compiler {:main crusture.core
                          :asset-path "js/compiled/out"
                          :output-to "resources/public/js/compiled/crust.js"
                          :output-dir "resources/public/js/compiled/out"
@@ -30,7 +30,7 @@
              {:id "min"
               :source-paths ["src"]
               :compiler {:output-to "resources/public/js/compiled/crust.js"
-                         :main crust.core
+                         :main crusture.core
                          :optimizations :advanced
                          :pretty-print false}}]}
 
