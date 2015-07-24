@@ -14,7 +14,7 @@ JVMs aren't cheap! And they're only as fast as your poor hardware can keep up wi
 
 Rust is cool though, and fast. It's my favorite new language ever. It has rad docs, and rad helpful people who work on it. You might say I'm a fan. So I thought "Why not just write the backend server in Rust, and save the overhead of one of those JVMs?"
 
-It means no easy reloading on the backend, but with the .cljc bug I have to restart the back-end server a lot anyway. Iron is not as friendly a framework as Compojure either, but it's not so much worse either. Also, my Rust server consumes only a few megabytes of RAM, instead of 400-600 for another JVM to run on the back end. 
+It means no easy reloading on the backend, and Iron is maybe not as friendly a framework as Compojure either, but it's not so much worse either. Also, my Rust server consumes only a few megabytes of RAM, instead of 400-600 for another JVM to run on the back end. 
 
 So that's a perk.
 
@@ -28,7 +28,7 @@ You'll also need to make sure that you have the external prereqs for openssl-sys
 
 ### Step 2: Building your ClojureScript
 
-Next, you need to build the ClojureScript side. After opening up a terminal, you have to options:
+First, you need to build the ClojureScript side. After opening up a terminal, you have two options:
 
 1) To get an interactive development environment run:
 
